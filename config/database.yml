@@ -7,12 +7,12 @@ default: &default
 
 development:
   <<: *default
-  database: fullstack-project-development
+  database: lanzz-project-development
 
 test:
   <<: *default
-  database: fullstack-project-test
+  database: lanzz-project-test
 
 production:
   <<: *default
-  database: fullstack-project-production
+  database: lanzz-project-production
