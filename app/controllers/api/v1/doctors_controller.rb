@@ -12,7 +12,8 @@ class Api::V1::DoctorsController < ApplicationController
     if @doctor.save
       render json: { status: 'SUCCESS', message: 'Doctor created successfully', data: @doctor }, status: :created
     else
-      render json: { status: 'ERROR', message: 'Doctor creation failed', data: @doctor.errors }, status: :unprocessable_entity
+      render json: { status: 'ERROR', message: 'Doctor creation failed', data: @doctor.errors },
+             status: :unprocessable_entity
     end
   end
 
@@ -26,7 +27,6 @@ class Api::V1::DoctorsController < ApplicationController
 
   def doctor_params
     params.require(:doctor).permit(:name, :image, :specialization, :consultation_fee, :hospital,
-     :availability, :description, :facebook, :twitter, :instagram)
+                                   :availability, :description, :facebook, :twitter, :instagram)
   end
-
 end
