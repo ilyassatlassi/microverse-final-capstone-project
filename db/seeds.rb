@@ -1,6 +1,35 @@
+User.delete_all
 Doctor.delete_all
 
-doctors_array = [
+users = [
+  User.new(
+    name: 'Emily Smith',
+    nickname: 'emilys',
+    email: 'emilysmith@gmail.com',
+    password: 'emily123'
+  ),
+  User.new(
+    name: 'Michael Johnson',
+    nickname: 'mjohnson',
+    email: 'michaeljohnson@gmail.com',
+    password: 'michael123'
+  ),
+  User.new(
+    name: 'Sophia Lee',
+    nickname: 'sophial',
+    email: 'sophialee@gmail.com',
+    password: 'sophia456'
+  ),
+  User.new(
+    name: 'Administrator',
+    nickname: 'admin',
+    email: 'admin@gmail.com',
+    password: 'admin456',
+    role: 'admin'
+  )
+]
+
+doctors = [
   Doctor.new(
     image: "image_url_1",
     name: "Dr. John Doe",
@@ -123,7 +152,10 @@ doctors_array = [
   )
 ]
 
+users.each do |user|
+  user.save!
+end
 
-doctors_array.each do |doctor|
+doctors.each do |doctor|
   doctor.save!
 end
