@@ -2,17 +2,15 @@ default: &default
   adapter: postgresql
   pool: <%= ENV.fetch("RAILS_MAX_THREADS") { 5 } %>
   timeout: 5000
-  username: microverse
-  password: 123456789
 
 development:
   <<: *default
-  database: lanzz-project-development
+  database: microverse-final-capstone-development
 
 test:
   <<: *default
-  database: lanzz-project-test
+  database: microverse-final-capstone-test
 
 production:
   <<: *default
-  database: lanzz-project-production
+  database: microverse-final-capstone-production
