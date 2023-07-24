@@ -2,7 +2,7 @@ class Api::V1::DoctorsController < ApplicationController
   protect_from_forgery with: :null_session
 
   def index
-    @doctors = Doctor.all
+    @doctors = Doctor.includes(:reservations)
     render json: { status: 'SUCCESS', message: 'Loaded all doctors', data: @doctors }, status: :ok
   end
 
