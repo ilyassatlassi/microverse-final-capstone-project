@@ -3,10 +3,12 @@ class Ability
 
   def initialize(user)
     return unless user.present?
+
     can [:current], User
     can :read, Doctor
 
     return unless user.role == 'admin'
+
     can :manage, Doctor
   end
 end
