@@ -1,9 +1,15 @@
 class Api::V1::DoctorsController < ApplicationController
-  protect_from_forgery with: :null_session
+  before_action :authenticate_user!
+  authorize_resource
 
   def index
-    @doctors = Doctor.includes(:reservations)
-    render json: { status: 'SUCCESS', message: 'Loaded all doctors', data: @doctors }, status: :ok
+    @doctors = Doctor.all
+    render json: @doctors, status: :ok
+  end
+
+  def show
+    @doctor = Doctor.includes(:reservations).find(params[:id])
+    render json: @doctor, status: :ok
   end
 
   def create
