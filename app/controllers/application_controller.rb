@@ -7,4 +7,8 @@ class ApplicationController < ActionController::API
   def configure_permitted_parameters
     devise_parameter_sanitizer.permit(:sign_up, keys: %i[email password name nickname role])
   end
+
+  rescue_from CanCan::AccessDenied do |_exception|
+    render json: { message: 'Access denied' }, status: :unauthorized
+  end
 end
