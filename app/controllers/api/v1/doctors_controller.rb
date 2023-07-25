@@ -10,6 +10,8 @@ class Api::V1::DoctorsController < ApplicationController
   def show
     @doctor = Doctor.includes(:reservations).find(params[:id])
     render json: @doctor, status: :ok
+  rescue ActiveRecord::RecordNotFound
+    render json: { message: 'Could not find the specified doctor ' }, status: :not_found
   end
 
   def create
@@ -26,7 +28,9 @@ class Api::V1::DoctorsController < ApplicationController
   def destroy
     @doctor = Doctor.find(params[:id])
     @doctor.destroy
-    render json: { status: 'SUCCESS', message: 'Doctor deleted successfully', data: @doctor }, status: :ok
+    render status: :no_content
+  rescue ActiveRecord::RecordNotFound
+    render json: { message: 'Could not find the specified doctor' }, status: :not_found
   end
 
   private
