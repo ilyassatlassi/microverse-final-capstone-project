@@ -97,6 +97,77 @@ paths:
           description: Not found
         '401':
           description: Unauthorized
+  "/api/v1/reservations":
+    get:
+      summary: View a user's reservations
+      tags:
+      - Reservations
+      parameters:
+      - name: Authorization
+        in: header
+        schema:
+          type: string
+      responses:
+        '200':
+          description: Successful
+        '401':
+          description: Unauthorized
+    post:
+      summary: Create a reservation
+      tags:
+      - Reservations
+      parameters:
+      - name: Authorization
+        in: header
+        schema:
+          type: string
+      responses:
+        '201':
+          description: Created
+        '401':
+          description: Unauthorized
+      requestBody:
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                city:
+                  type: string
+                time:
+                  type: string
+                date:
+                  type: string
+                doctor_id:
+                  type: number
+              required:
+              - city,
+              - time,
+              - date,
+              - doctor_id
+  "/api/v1/reservations/{id}":
+    parameters:
+    - name: id
+      in: path
+      description: ID of a doctor
+      required: true
+      schema:
+        type: string
+    - name: Authorization
+      in: header
+      schema:
+        type: string
+    delete:
+      summary: Delete a reservation
+      tags:
+      - Reservations
+      responses:
+        '204':
+          description: No content
+        '404':
+          description: Not found
+        '401':
+          description: Unauthorized
 servers:
 - url: http://{defaultHost}
   variables:

@@ -1,6 +1,6 @@
 require 'swagger_helper'
 
-RSpec.describe 'api/v1/doctors', type: :request, latest: true do
+RSpec.describe 'API::V1::Doctors', type: :request do
   let(:current_user) { User.create!(email: 'james@abc.com', password: 'james123') }
   let(:admin) { User.create!(email: 'admin@gmail.com', password: 'admin123', role: 'admin') }
   let(:doctor) do
