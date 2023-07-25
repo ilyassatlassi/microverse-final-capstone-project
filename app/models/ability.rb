@@ -6,7 +6,7 @@ class Ability
 
     can [:current], User
     can :read, Doctor
-    can :manage, Reservation, user: user
+    can(:manage, Reservation, user:)
 
     return unless user.role == 'admin'
 

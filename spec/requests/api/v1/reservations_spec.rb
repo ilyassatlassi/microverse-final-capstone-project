@@ -1,6 +1,6 @@
 require 'rails_helper'
 
-RSpec.describe "Api::V1::Reservations", type: :request do
+RSpec.describe 'Api::V1::Reservations', type: :request do
   let(:current_user) { User.create!(email: 'james@abc.com', password: 'james123') }
 
   let(:doctor) do
@@ -18,14 +18,14 @@ RSpec.describe "Api::V1::Reservations", type: :request do
     )
   end
 
-  let(:reservation1) {
+  let(:reservation1) do
     current_user.reservations.create!(
       city: 'LA',
       time: '10:00',
       date: 'May 30, 2024',
-      doctor: doctor
+      doctor:
     )
-  }
+  end
 
   path '/api/v1/reservations' do
     get 'View a user\'s reservations' do
@@ -62,7 +62,7 @@ RSpec.describe "Api::V1::Reservations", type: :request do
           date: { type: :string },
           doctor_id: { type: :number }
         },
-        required: %i[city, time, date, doctor_id]
+        required: %i[city time date doctor_id]
       }
 
       response 201, 'Created' do

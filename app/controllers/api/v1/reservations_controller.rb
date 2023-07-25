@@ -14,7 +14,7 @@ class Api::V1::ReservationsController < ApplicationController
       city: reservation_params[:city],
       date: reservation_params[:date],
       time: reservation_params[:time],
-      doctor: doctor
+      doctor:
     )
 
     if @reservation.save
