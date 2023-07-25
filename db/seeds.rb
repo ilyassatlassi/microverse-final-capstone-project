@@ -1,3 +1,4 @@
+Reservation.delete_all
 User.delete_all
 Doctor.delete_all
 
@@ -37,7 +38,7 @@ doctors = [
     consultation_fee: 150,
     hospital: "City Hospital",
     availability: true,
-    description: "Experienced cardiologist with a focus on heart health.",
+    description: "Experienced cardiologist with...",
     facebook: "facebook.com/johndoe",
     twitter: "twitter.com/johndoe",
     instagram: "instagram.com/johndoe"
@@ -49,7 +50,7 @@ doctors = [
     consultation_fee: 120,
     hospital: "Skin Clinic",
     availability: true,
-    description: "Skincare expert specializing in dermatological treatments.",
+    description: "Skincare expert specializing...",
     facebook: "facebook.com/janesmith",
     twitter: "twitter.com/janesmith",
     instagram: "instagram.com/janesmith"
@@ -61,7 +62,7 @@ doctors = [
     consultation_fee: 200,
     hospital: "OrthoCare Hospital",
     availability: false,
-    description: "Orthopedic surgeon with expertise in joint replacements.",
+    description: "Orthopedic surgeon with...",
     facebook: "facebook.com/michaeljohnson",
     twitter: "twitter.com/michaeljohnson",
     instagram: "instagram.com/michaeljohnson"
@@ -73,7 +74,7 @@ doctors = [
     consultation_fee: 100,
     hospital: "Kids Care Clinic",
     availability: true,
-    description: "Specializes in providing care for children and adolescents.",
+    description: "Specializes in providing care...",
     facebook: "facebook.com/drsarahlee",
     twitter: "twitter.com/drsarahlee",
     instagram: "instagram.com/drsarahlee"
@@ -85,7 +86,7 @@ doctors = [
     consultation_fee: 180,
     hospital: "Women's Health Center",
     availability: true,
-    description: "Dedicated to women's reproductive health and wellness.",
+    description: "Dedicated to women's reproductive...",
     facebook: "facebook.com/dremilywilson",
     twitter: "twitter.com/dremilywilson",
     instagram: "instagram.com/dremilywilson"
@@ -97,7 +98,7 @@ doctors = [
     consultation_fee: 220,
     hospital: "Brain and Nerve Clinic",
     availability: true,
-    description: "Expert in diagnosing and treating neurological disorders.",
+    description: "Expert in diagnosing and treating...",
     facebook: "facebook.com/dranderson",
     twitter: "twitter.com/dranderson",
     instagram: "instagram.com/dranderson"
@@ -109,7 +110,7 @@ doctors = [
     consultation_fee: 160,
     hospital: "Eye Care Center",
     availability: true,
-    description: "Specializes in eye-related diseases and surgeries.",
+    description: "Specializes in eye-related...",
     facebook: "facebook.com/drobertjohnson",
     twitter: "twitter.com/drobertjohnson",
     instagram: "instagram.com/drobertjohnson"
@@ -121,7 +122,7 @@ doctors = [
     consultation_fee: 190,
     hospital: "Mindful Psychiatry Clinic",
     availability: false,
-    description: "Offers compassionate care for mental health and well-being.",
+    description: "Offers compassionate care...",
     facebook: "facebook.com/drjenniferadams",
     twitter: "twitter.com/drjenniferadams",
     instagram: "instagram.com/drjenniferadams"
@@ -133,7 +134,7 @@ doctors = [
     consultation_fee: 180,
     hospital: "City General Hospital",
     availability: true,
-    description: "Experienced in various surgical procedures and emergency care.",
+    description: "Experienced in various...",
     facebook: "facebook.com/drwilliamroberts",
     twitter: "twitter.com/drwilliamroberts",
     instagram: "instagram.com/drwilliamroberts"
@@ -145,7 +146,7 @@ doctors = [
     consultation_fee: 210,
     hospital: "Metabolic Health Clinic",
     availability: true,
-    description: "Specializes in hormone-related disorders and diabetes management.",
+    description: "Specializes in hormone-related...",
     facebook: "facebook.com/drelizabethturner",
     twitter: "twitter.com/drelizabethturner",
     instagram: "instagram.com/drelizabethturner"
