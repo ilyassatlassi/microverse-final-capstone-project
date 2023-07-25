@@ -169,7 +169,7 @@ paths:
         '401':
           description: Unauthorized
 servers:
-- url: http://{defaultHost}
+- url: https://{defaultHost}
   variables:
     defaultHost:
-      default: localhost:3000
+      default: doc-reserve.onrender.com
