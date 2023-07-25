@@ -2,9 +2,11 @@ require 'rails_helper'
 
 RSpec.describe Reservation, type: :model do
   before(:each) do
-    @user =  User.create!(name: 'khan jan', email: 'khan1@gmail.com', password: '123456')
-    @doctor = Doctor.create!(name: 'Dr.khan', specialization: 'dentist', consultation_fee: 100, hospital: 'Kabul Afghan Clinic', description: 'dentalist prof', availability: true)
-    @reservation = Reservation.create!(date: '2021-05-12', city: 'kabul', time: '12:00', user_id: @user.id, doctor_id: @doctor.id)
+    @user = User.create!(name: 'khan jan', email: 'khan1@gmail.com', password: '123456')
+    @doctor = Doctor.create!(name: 'Dr.khan', specialization: 'dentist', consultation_fee: 100,
+                             hospital: 'Kabul Afghan Clinic', description: 'dentalist prof', availability: true)
+    @reservation = Reservation.create!(date: '2021-05-12', city: 'kabul', time: '12:00', user_id: @user.id,
+                                       doctor_id: @doctor.id)
   end
 
   it 'should have a date' do

@@ -2,7 +2,8 @@ require 'rails_helper'
 
 RSpec.describe Doctor, type: :model do
   subject do
-    Doctor.create!(name: 'khan', specialization: 'dentist', consultation_fee: 100, hospital: 'Kabul Afghan Clinic', description: 'dentalist prof', availability: true)
+    Doctor.create!(name: 'khan', specialization: 'dentist', consultation_fee: 100, hospital: 'Kabul Afghan Clinic',
+                   description: 'dentalist prof', availability: true)
   end
 
   before { subject.save }
