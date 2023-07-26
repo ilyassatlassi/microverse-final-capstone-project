@@ -141,9 +141,9 @@ paths:
                 doctor_id:
                   type: number
               required:
-              - city,
-              - time,
-              - date,
+              - city
+              - time
+              - date
               - doctor_id
   "/api/v1/reservations/{id}":
     parameters:
@@ -168,6 +168,74 @@ paths:
           description: Not found
         '401':
           description: Unauthorized
+  "/auth":
+    post:
+      summary: Register a new user
+      tags:
+      - Users
+      parameters: []
+      responses:
+        '200':
+          description: Successful
+        '422':
+          description: Incomplete credentials
+      requestBody:
+        content:
+          multipart/form-data:
+            schema:
+              type: object
+              properties:
+                name:
+                  type: string
+                nickname:
+                  type: string
+                email:
+                  type: string
+                password:
+                  type: string
+              required:
+              - name
+              - email
+              - password
+  "/auth/sign_in":
+    post:
+      summary: Sign a user in
+      tags:
+      - Users
+      parameters: []
+      responses:
+        '200':
+          description: Successful
+        '401':
+          description: Invalid credentials
+      requestBody:
+        content:
+          application/x-www-form-urlencoded:
+            schema:
+              type: object
+              properties:
+                email:
+                  type: string
+                password:
+                  type: string
+              required:
+              - email
+              - password
+  "/auth/sign_out":
+    delete:
+      summary: Sign a user out
+      tags:
+      - Users
+      parameters:
+      - name: Authorization
+        in: header
+        schema:
+          type: string
+      responses:
+        '200':
+          description: Successful
+        '404':
+          description: Not found
 servers:
 - url: https://{defaultHost}
   variables:
