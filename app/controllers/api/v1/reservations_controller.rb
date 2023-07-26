@@ -3,7 +3,7 @@ class Api::V1::ReservationsController < ApplicationController
   authorize_resource
 
   def index
-    @reservations = current_user.reservations.all
+    @reservations = current_user.reservations.includes(:doctor).all
     render json: @reservations, status: :ok
   end
 
