@@ -1,0 +1,243 @@
+---
+openapi: 3.0.1
+info:
+  title: API V1
+  version: v1
+paths:
+  "/api/v1/doctors":
+    get:
+      summary: List all doctors
+      tags:
+      - Doctors
+      parameters:
+      - name: Authorization
+        in: header
+        schema:
+          type: string
+      responses:
+        '200':
+          description: Successful
+        '401':
+          description: Unauthorized
+    post:
+      summary: Create a doctor
+      tags:
+      - Doctors
+      parameters:
+      - name: Authorization
+        in: header
+        schema:
+          type: string
+      responses:
+        '201':
+          description: Created
+        '401':
+          description: Unauthorized
+      requestBody:
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                name:
+                  type: string
+                description:
+                  type: string
+                image:
+                  type: string
+                specialization:
+                  type: string
+                consultation_fee:
+                  type: number
+                hospital:
+                  type: string
+                availability:
+                  type: boolean
+                facebook:
+                  type: string
+                instagram:
+                  type: string
+                twitter:
+                  type: string
+              required:
+              - name
+              - description
+              - specialization
+  "/api/v1/doctors/{id}":
+    parameters:
+    - name: id
+      in: path
+      description: ID of a doctor
+      required: true
+      schema:
+        type: string
+    - name: Authorization
+      in: header
+      schema:
+        type: string
+    get:
+      summary: Show a doctor's details
+      tags:
+      - Doctors
+      responses:
+        '200':
+          description: Successful
+        '404':
+          description: Not found
+        '401':
+          description: Unauthorized
+    delete:
+      summary: Delete a doctor
+      tags:
+      - Doctors
+      responses:
+        '204':
+          description: No content
+        '404':
+          description: Not found
+        '401':
+          description: Unauthorized
+  "/api/v1/reservations":
+    get:
+      summary: View a user's reservations
+      tags:
+      - Reservations
+      parameters:
+      - name: Authorization
+        in: header
+        schema:
+          type: string
+      responses:
+        '200':
+          description: Successful
+        '401':
+          description: Unauthorized
+    post:
+      summary: Create a reservation
+      tags:
+      - Reservations
+      parameters:
+      - name: Authorization
+        in: header
+        schema:
+          type: string
+      responses:
+        '201':
+          description: Created
+        '401':
+          description: Unauthorized
+      requestBody:
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                city:
+                  type: string
+                time:
+                  type: string
+                date:
+                  type: string
+                doctor_id:
+                  type: number
+              required:
+              - city
+              - time
+              - date
+              - doctor_id
+  "/api/v1/reservations/{id}":
+    parameters:
+    - name: id
+      in: path
+      description: ID of a doctor
+      required: true
+      schema:
+        type: string
+    - name: Authorization
+      in: header
+      schema:
+        type: string
+    delete:
+      summary: Delete a reservation
+      tags:
+      - Reservations
+      responses:
+        '204':
+          description: No content
+        '404':
+          description: Not found
+        '401':
+          description: Unauthorized
+  "/auth":
+    post:
+      summary: Register a new user
+      tags:
+      - Users
+      parameters: []
+      responses:
+        '200':
+          description: Successful
+        '422':
+          description: Incomplete credentials
+      requestBody:
+        content:
+          multipart/form-data:
+            schema:
+              type: object
+              properties:
+                name:
+                  type: string
+                nickname:
+                  type: string
+                email:
+                  type: string
+                password:
+                  type: string
+              required:
+              - name
+              - email
+              - password
+  "/auth/sign_in":
+    post:
+      summary: Sign a user in
+      tags:
+      - Users
+      parameters: []
+      responses:
+        '200':
+          description: Successful
+        '401':
+          description: Invalid credentials
+      requestBody:
+        content:
+          application/x-www-form-urlencoded:
+            schema:
+              type: object
+              properties:
+                email:
+                  type: string
+                password:
+                  type: string
+              required:
+              - email
+              - password
+  "/auth/sign_out":
+    delete:
+      summary: Sign a user out
+      tags:
+      - Users
+      parameters:
+      - name: Authorization
+        in: header
+        schema:
+          type: string
+      responses:
+        '200':
+          description: Successful
+        '404':
+          description: Not found
+servers:
+- url: https://{defaultHost}
+  variables:
+    defaultHost:
+      default: doc-reserve.onrender.com
