@@ -27,6 +27,13 @@ users = [
     email: 'admin@gmail.com',
     password: 'admin456',
     role: 'admin'
+  ),
+  User.new(
+    name: 'Administrator 2',
+    nickname: 'admin',
+    email: 'admin2@gmail.com',
+    password: 'admin789',
+    role: 'admin'
   )
 ]
 
