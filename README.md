@@ -145,3 +145,12 @@ You can deploy this project using: render or any host of your choice
 ### 👤 **Fahim Khan**:
 - GitHub: [@Fahim_on_GitHub](https://github.com/Fahim-Khan-P/Budget.git)
 - LinkedIn: [@Fahim_on_LinkedIn](https://www.linkedin.com/in/fahimkhan-p/)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## 🔭 Future Features <a name="future-features"></a>
+
+- [ ] **Adding additional pages**
+- [ ] **Impelment update password funtionality**
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
