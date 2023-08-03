@@ -90,20 +90,13 @@ The goal of this project is to display the ability to implement a full stack web
 Clone this repository to your desired folder:(https://github.com/preciousbetine/microverse-final-capstone-project.git)
 
 # Usage <a name="usage"></a>
-
-## note before running this project install and run the back end first
-
-follow this [link](https://github.com/preciousbetine/microverse-final-capstone-project.git) to run the back end
+Please Use the Live Demo Link
 
 ## To run the project, execute the following command:
 
-### npm install
+### bundle install
 
 to install all the dependencies used in the project
-
-### npm run build
-
-to build this project from the source folder using webpack
 
 ### npm run start
 
