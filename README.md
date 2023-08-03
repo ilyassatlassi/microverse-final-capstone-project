@@ -86,3 +86,7 @@ The goal of this project is to display the ability to implement a full stack web
 8.Run bundle install to install dependencies
 
 9.Run rails server to see the api in action!
+
+### Setup <a name="setup"></a>
+
+Clone this repository to your desired folder:(https://github.com/preciousbetine/microverse-final-capstone-project.git)
