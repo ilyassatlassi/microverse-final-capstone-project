@@ -87,7 +87,7 @@ The goal of this project is to display the ability to implement a full stack web
 
 ### Setup <a name="setup"></a>
 
-Clone this repository to your desired folder:(https://github.com/ilyassatlassi/final-capstone-project-frontend.git)
+Clone this repository to your desired folder:(https://github.com/preciousbetine/microverse-final-capstone-project.git)
 
 # Usage <a name="usage"></a>
 
