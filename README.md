@@ -154,3 +154,42 @@ You can deploy this project using: render or any host of your choice
 - [ ] **Impelment update password funtionality**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## 🤝 Contributing <a name="contributing"></a>
+
+Contributions, issues, and feature requests are welcome!
+
+Feel free to check the [issues page](https://github.com/ilyassatlassi/final-capstone-project-frontend/issues).
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## ⭐️ Show your support <a name="support"></a>
+
+If you like this project please give it a ⭐️.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## 🙏 Acknowledgments <a name="acknowledgements"></a>
+
+- [the whole Microverse Community](https://www.microverse.org/)
+- [The template design Owner](https://www.behance.net/gallery/26425031/Vespa-Responsive-Redesign)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## ❓ FAQ (OPTIONAL) <a name="faq"></a>
+
+- **how will i setup this project in local machine**
+
+  - run the following command in the terminal: git clone (https://github.com/ilyassatlassi/final-capstone-project-frontend.git)
+
+- **which code editor should i use**
+
+  - You can use any editor of your choice but i recommend vs code.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## 📝 License <a name="license"></a>
+
+This project is [MIT](./LICENSE) licensed.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
