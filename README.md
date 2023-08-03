@@ -34,8 +34,6 @@ The goal of this project is to display the ability to implement a full stack web
 
 ### [Link to Kanban Board](https://github.com/preciousbetine/microverse-final-capstone-project/projects/1)
 
-### [Link to Kanban Board Image ](./src/assets/kanban1.jpg)
-
 - We are 5 five team members.
   - [David](https://github.com/David-Lanzz)
   - [Mantock](https://github.com/SabiMantock)
