@@ -129,3 +129,19 @@ You can deploy this project using: render or any host of your choice
 - GitHub: [@SabiMantock](https://github.com/SabiMantock)
 - Twitter: [@iamsabimantock](https://twitter.com/iamsabimantock)
 - LinkedIn: [Sabi Mantock](https://linkedin.com/in/sabi-mantock)
+
+👤 **Precious Betine**
+
+- GitHub: [@preciousbetine](https://github.com/preciousbetine)
+- Twitter: [@preciousbetine](https://twitter.com/preciousbetine)
+- LinkedIn: [preciousbetine](https://linkedin.com/in/preciousbetine)
+
+👤 **Ilyass Atlassi**
+
+- GitHub: [@githubhandle](https://github.com/ilyassatlassi)
+- Twitter: [@twitterhandle](https://twitter.com/ilyass_atlassi)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/ilyassatlassi/)
+
+### 👤 **Fahim Khan**:
+- GitHub: [@Fahim_on_GitHub](https://github.com/Fahim-Khan-P/Budget.git)
+- LinkedIn: [@Fahim_on_LinkedIn](https://www.linkedin.com/in/fahimkhan-p/)
