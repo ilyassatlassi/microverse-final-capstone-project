@@ -26,7 +26,7 @@
 
 # Reserve-Me-A-Doctor-backend📖 <a name="about-project"></a>
 
-**Reserve-Me-A-Doctor-backend** Is a webpage that displays list of Doctores with their biography from the back end api [Doctore-back-end](https://github.com/preciousbetine/microverse-final-capstone-project)
+**Reserve-Me-A-Doctor-backend** Is a webpage that displays list of Doctores with their biography from the back end api [Reserve-Me-A-Doctor-Backend](https://github.com/preciousbetine/microverse-final-capstone-project)
 
 The goal of this project is to display the ability to implement a full stack web application by connecting the back end to the front end by creating a web service used by hospitals to allow clients/patients to book doctors from anywhere at their convenience
 
