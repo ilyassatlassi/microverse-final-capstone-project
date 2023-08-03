@@ -46,9 +46,9 @@ doctors = [
     hospital: "City Hospital",
     availability: true,
     description: "Experienced cardiologist with...",
-    facebook: "facebook.com/johndoe",
-    twitter: "twitter.com/johndoe",
-    instagram: "instagram.com/johndoe"
+    facebook: "https://facebook.com/johndoe",
+    twitter: "https://twitter.com/johndoe",
+    instagram: "https://instagram.com/johndoe"
   ),
   Doctor.new(
     image: "https://i.pinimg.com/564x/72/b8/89/72b8890192ea78d25cf7e969453dc390.jpg",
@@ -58,9 +58,9 @@ doctors = [
     hospital: "Skin Clinic",
     availability: true,
     description: "Skincare expert specializing...",
-    facebook: "facebook.com/janesmith",
-    twitter: "twitter.com/janesmith",
-    instagram: "instagram.com/janesmith"
+    facebook: "https://facebook.com/janesmith",
+    twitter: "https://twitter.com/janesmith",
+    instagram: "https://instagram.com/janesmith"
   ),
   Doctor.new(
     image: "https://i.pinimg.com/564x/6a/af/47/6aaf47b8ee8d344f4cdda3d1bdcc45f3.jpg",
@@ -70,9 +70,9 @@ doctors = [
     hospital: "OrthoCare Hospital",
     availability: false,
     description: "Orthopedic surgeon with...",
-    facebook: "facebook.com/michaeljohnson",
-    twitter: "twitter.com/michaeljohnson",
-    instagram: "instagram.com/michaeljohnson"
+    facebook: "https://facebook.com/michaeljohnson",
+    twitter: "https://twitter.com/michaeljohnson",
+    instagram: "https://instagram.com/michaeljohnson"
   ),
   Doctor.new(
     image: "https://i.pinimg.com/564x/1b/52/fd/1b52fd81c2282b432b85dc6a8a01f13d.jpg",
@@ -82,9 +82,9 @@ doctors = [
     hospital: "Kids Care Clinic",
     availability: true,
     description: "Specializes in providing care...",
-    facebook: "facebook.com/drsarahlee",
-    twitter: "twitter.com/drsarahlee",
-    instagram: "instagram.com/drsarahlee"
+    facebook: "https://facebook.com/drsarahlee",
+    twitter: "https://twitter.com/drsarahlee",
+    instagram: "https://instagram.com/drsarahlee"
   ),
   Doctor.new(
     image: "https://i.pinimg.com/564x/1f/e4/b2/1fe4b22873d29a7babb1f7e5b52efed2.jpg",
@@ -94,9 +94,9 @@ doctors = [
     hospital: "Women's Health Center",
     availability: true,
     description: "Dedicated to women's reproductive...",
-    facebook: "facebook.com/dremilywilson",
-    twitter: "twitter.com/dremilywilson",
-    instagram: "instagram.com/dremilywilson"
+    facebook: "https://facebook.com/dremilywilson",
+    twitter: "https://twitter.com/dremilywilson",
+    instagram: "https://instagram.com/dremilywilson"
   ),
   Doctor.new(
     image: "https://i.pinimg.com/564x/92/33/24/923324c031d8ba5da741fd2ef63306e3.jpg",
@@ -106,9 +106,9 @@ doctors = [
     hospital: "Brain and Nerve Clinic",
     availability: true,
     description: "Expert in diagnosing and treating...",
-    facebook: "facebook.com/dranderson",
-    twitter: "twitter.com/dranderson",
-    instagram: "instagram.com/dranderson"
+    facebook: "https://facebook.com/dranderson",
+    twitter: "https://twitter.com/dranderson",
+    instagram: "https://instagram.com/dranderson"
   ),
   Doctor.new(
     image: "https://i.pinimg.com/564x/eb/00/f4/eb00f433d6ae7cecdecffaacdb963fcf.jpg",
@@ -118,9 +118,9 @@ doctors = [
     hospital: "Eye Care Center",
     availability: true,
     description: "Specializes in eye-related...",
-    facebook: "facebook.com/drobertjohnson",
-    twitter: "twitter.com/drobertjohnson",
-    instagram: "instagram.com/drobertjohnson"
+    facebook: "https://facebook.com/drobertjohnson",
+    twitter: "https://twitter.com/drobertjohnson",
+    instagram: "https://instagram.com/drobertjohnson"
   ),
   Doctor.new(
     image: "https://i.pinimg.com/564x/0f/65/5a/0f655a106416d94690749a1960516938.jpg",
@@ -131,8 +131,8 @@ doctors = [
     availability: false,
     description: "Offers compassionate care...",
     facebook: "facebook.com/drjenniferadams",
-    twitter: "twitter.com/drjenniferadams",
-    instagram: "instagram.com/drjenniferadams"
+    twitter: "https://twitter.com/drjenniferadams",
+    instagram: "https://instagram.com/drjenniferadams"
   ),
   Doctor.new(
     image: "https://i.pinimg.com/564x/e8/f9/64/e8f964f2a79487c2bc9515b193be19e3.jpg",
@@ -142,9 +142,9 @@ doctors = [
     hospital: "City General Hospital",
     availability: true,
     description: "Experienced in various...",
-    facebook: "facebook.com/drwilliamroberts",
-    twitter: "twitter.com/drwilliamroberts",
-    instagram: "instagram.com/drwilliamroberts"
+    facebook: "https://facebook.com/drwilliamroberts",
+    twitter: "https://twitter.com/drwilliamroberts",
+    instagram: "https://instagram.com/drwilliamroberts"
   ),
   Doctor.new(
     image: "https://i.pinimg.com/564x/0c/49/08/0c49085f860988e12ab31c02bc0ff134.jpg",
@@ -154,9 +154,9 @@ doctors = [
     hospital: "Metabolic Health Clinic",
     availability: true,
     description: "Specializes in hormone-related...",
-    facebook: "facebook.com/drelizabethturner",
-    twitter: "twitter.com/drelizabethturner",
-    instagram: "instagram.com/drelizabethturner"
+    facebook: "https://facebook.com/drelizabethturner",
+    twitter: "https://twitter.com/drelizabethturner",
+    instagram: "https://instagram.com/drelizabethturner"
   )
 ]
 
