@@ -32,6 +32,8 @@ class Api::V1::ReservationsController < ApplicationController
     render json: { message: 'Could not find the specified reservation' }, status: :not_found
   end
 
+  private
+
   def reservation_params
     params.require(:reservation).permit(:date, :city, :time, :doctor_id)
   end
