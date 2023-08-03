@@ -110,3 +110,9 @@ to build this project from the source folder using webpack
 ### npm run start
 
 in order to start a server and deploy the project localy
+
+### Deployment <a name="triangular_flag_on_post-deployment"></a>
+
+You can deploy this project using: render or any host of your choice
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
