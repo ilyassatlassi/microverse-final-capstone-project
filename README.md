@@ -37,3 +37,18 @@ The goal of this project is to display the ability to implement a full stack web
 
 ### [Link to Kanban Board Image ](./src/assets/kanban1.jpg)
 
+- We are 5 five team members.
+  - [David](https://github.com/David-Lanzz)
+  - [Mantock](https://github.com/SabiMantock)
+  - [Precious](https://github.com/preciousbetine)
+  - [Ilyass](https://github.com/ilyassatlassi)
+  - [Fahim-Khan](https://github.com/Fahim-Khan-P)
+
+## 🛠 Built With <a name="built-with"></a>
+
+- [Ruby.]()
+- [Ruby-on-Rails.]()
+- [postgresql.]()
+- [Render.]()
+
+### Tech Stack <a name="tech-stack"></a>
