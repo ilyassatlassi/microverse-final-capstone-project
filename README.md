@@ -98,9 +98,13 @@ Please Use the Live Demo Link
 
 to install all the dependencies used in the project
 
-### npm run start
+### rails console
 
-in order to start a server and deploy the project localy
+to run the app in the console
+
+### rails server
+
+in order to start a server and deploy the project locally
 
 ### Deployment <a name="triangular_flag_on_post-deployment"></a>
 
