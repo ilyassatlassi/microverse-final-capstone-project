@@ -116,3 +116,16 @@ in order to start a server and deploy the project localy
 You can deploy this project using: render or any host of your choice
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+# 👥 Authors <a name="authors"></a>
+
+👤 **David-Lanzz**
+- GitHub: [@githubhandle](https://github.com/David-Lanzz/)
+- Twitter: [@twitterhandle](https://twitter.com/LanzzDavid)
+- LinkedIn: [LinkedIn](https://linkedin.com/in/david-lanzz)
+
+👤 **Sabi Mantock**
+
+- GitHub: [@SabiMantock](https://github.com/SabiMantock)
+- Twitter: [@iamsabimantock](https://twitter.com/iamsabimantock)
+- LinkedIn: [Sabi Mantock](https://linkedin.com/in/sabi-mantock)
