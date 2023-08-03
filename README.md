@@ -100,3 +100,13 @@ follow this [link](https://github.com/preciousbetine/microverse-final-capstone-p
 ## To run the project, execute the following command:
 
 ### npm install
+
+to install all the dependencies used in the project
+
+### npm run build
+
+to build this project from the source folder using webpack
+
+### npm run start
+
+in order to start a server and deploy the project localy
