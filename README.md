@@ -9,7 +9,6 @@
 - [📖 About the Project](#about-project)
   - [Kanban board](#kanban-board)
   - [🛠 Built With](#built-with)
-    - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
   - [🚀 Live Demo](#live-demo)
 - [💻 Getting Started](#getting-started)
@@ -51,4 +50,12 @@ The goal of this project is to display the ability to implement a full stack web
 - [postgresql.](https://www.pgsclusters.com/?utm_source=google.com&utm_medium=ads&utm_term=postgresql%20cloud&gclid=Cj0KCQjwoK2mBhDzARIsADGbjereykxvLbT7fM4zxP2KcpnhkDLDdXIAhONCH5lTpYppPiMITrPTpcAaAmaxEALw_wcB)
 - [Render.](https://render.com/)
 
-### Tech Stack <a name="tech-stack"></a>
+### Key Features <a name="key-features"></a>
+
+- **React front end framwork**
+- **Git-flow**
+- **Es6 module**
+- **Database storage**
+- **Correct routing**
+- **CORS implementation**
+
