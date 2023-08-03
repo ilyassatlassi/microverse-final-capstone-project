@@ -46,9 +46,9 @@ The goal of this project is to display the ability to implement a full stack web
 
 ## 🛠 Built With <a name="built-with"></a>
 
-- [Ruby.]()
-- [Ruby-on-Rails.]()
-- [postgresql.]()
-- [Render.]()
+- [Ruby.](https://www.ruby-lang.org/en/)
+- [Ruby-on-Rails.](https://www.jetbrains.com/ruby/features/?source=google&medium=cpc&campaign=10116875254&term=rails%20development&content=437187921767&gad=1&gclid=Cj0KCQjwoK2mBhDzARIsADGbjepkeeeYLo_xHowNEgJzOylclZzuTbAAdgcmhgJ_BG9Ni4FylKPkLeoaAmdkEALw_wcB)
+- [postgresql.](https://www.pgsclusters.com/?utm_source=google.com&utm_medium=ads&utm_term=postgresql%20cloud&gclid=Cj0KCQjwoK2mBhDzARIsADGbjereykxvLbT7fM4zxP2KcpnhkDLDdXIAhONCH5lTpYppPiMITrPTpcAaAmaxEALw_wcB)
+- [Render.](https://render.com/)
 
 ### Tech Stack <a name="tech-stack"></a>
