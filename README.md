@@ -173,9 +173,9 @@ If you like this project please give it a ⭐️.
 
 ## ❓ FAQ (OPTIONAL) <a name="faq"></a>
 
-- **how will i setup this project in local machine**
+- **how will get the frontend app?**
 
-  - run the following command in the terminal: git clone (https://github.com/ilyassatlassi/final-capstone-project-frontend.git)
+  - run the following in the terminal: git clone (https://github.com/ilyassatlassi/final-capstone-project-frontend.git)
 
 - **which code editor should i use**
 
