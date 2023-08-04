@@ -111,7 +111,7 @@ rspec
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-The project was hosted on render and is live [here](https://reserve-me-a-doc.onrender.com/)
+The project was hosted on render and is live [here](https://reserve-me-a-doc.onrender.com/).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
