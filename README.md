@@ -31,7 +31,9 @@ This is the backend for a web application that allows users to book appointments
 The frontend repository can be found [here](https://github.com/ilyassatlassi/final-capstone-project-frontend).
 
 ### Project kanban board <a name="kanban-board"></a>
+Our group consists of 5 members.
 We used [this](https://github.com/preciousbetine/microverse-final-capstone-project/projects/1) kanban board to split tasks and track progress.
+[This](https://imgur.com/a/pCCJu7E) is the screenshot of the initial state of the kanban board.
 
 ### 🛠 Built With <a name="built-with"></a>
 
